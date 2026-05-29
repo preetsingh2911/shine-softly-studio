@@ -76,6 +76,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "A considered hair atelier for color, cut and care." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Maison — Hair Atelier" },
+      { name: "twitter:title", content: "Maison — Hair Atelier" },
+      { property: "og:description", content: "A considered hair atelier for color, cut and care." },
+      { name: "twitter:description", content: "A considered hair atelier for color, cut and care." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1b174874-561d-4dac-ac75-284020956611/id-preview-88adcf06--371c9ced-526c-4324-8a77-a98ab418de43.lovable.app-1780041357807.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1b174874-561d-4dac-ac75-284020956611/id-preview-88adcf06--371c9ced-526c-4324-8a77-a98ab418de43.lovable.app-1780041357807.png" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
