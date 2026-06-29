@@ -4,6 +4,7 @@ import interior from "@/assets/interior.jpg";
 import s1 from "@/assets/stylist1.jpg";
 import s2 from "@/assets/stylist2.jpg";
 import s3 from "@/assets/stylist3.jpg";
+import s4 from "@/assets/stylist4.jpg";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
