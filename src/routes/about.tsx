@@ -21,6 +21,7 @@ export const Route = createFileRoute("/about")({
 const team = [
   { img: s1, name: "Clara Bouvier", role: "Founder · Senior Stylist", years: "Since 2014" },
   { img: s2, name: "Theo Marsh", role: "Master Cutter", years: "Since 2017" },
+  { img: s4, name: "Mateo Rivera", role: "Head Barber", years: "Since 2018" },
   { img: s3, name: "June Okafor", role: "Color Specialist", years: "Since 2020" },
 ];
 
