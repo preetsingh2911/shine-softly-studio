@@ -86,7 +86,7 @@ function Services() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <p className="reveal text-xs uppercase tracking-[0.3em] text-accent mb-6">Services</p>
           <h1 className="reveal reveal-delay-1 text-5xl sm:text-7xl max-w-4xl leading-[1.05] text-balance">
-            A short menu, practiced thoroughly.
+            One menu, open to everyone.
           </h1>
           <p className="reveal reveal-delay-2 mt-8 max-w-xl text-foreground/70 leading-relaxed">
             Prices begin where they begin; final quotes are confirmed during your in-person consultation, so the number on the receipt is the one we discussed.
