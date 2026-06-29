@@ -22,29 +22,43 @@ const categories = [
   {
     img: cut,
     name: "Cuts & Shapes",
-    intro: "Cuts that respect the way your hair grows and the way you live.",
+    intro: "Cuts for every head — long, short, curly, fine. Shaped to the way your hair grows and the way you live.",
     items: [
       { name: "Signature Cut", time: "60 min", price: "$120" },
+      { name: "Short / Cropped Cut", time: "45 min", price: "$85" },
       { name: "Restyle", time: "90 min", price: "$160" },
       { name: "Fringe / Bang Trim", time: "20 min", price: "$30" },
       { name: "Children (under 12)", time: "30 min", price: "$55" },
     ],
   },
   {
+    img: mens,
+    name: "Grooming & Barbering",
+    intro: "Skin fades, classic scissor work, beard sculpting and the kind of hot-towel shave that earns repeat visits.",
+    items: [
+      { name: "Skin Fade", time: "45 min", price: "$60" },
+      { name: "Classic Scissor Cut", time: "45 min", price: "$55" },
+      { name: "Beard Sculpt & Line-up", time: "30 min", price: "$35" },
+      { name: "Hot Towel Shave", time: "45 min", price: "$50" },
+      { name: "Cut + Beard Combo", time: "75 min", price: "$85" },
+    ],
+  },
+  {
     img: color,
     name: "Color",
-    intro: "Hand-painted, lived-in color built to grow out as gracefully as it goes in.",
+    intro: "Hand-painted, lived-in color built to grow out as gracefully as it goes in. Grey-blending and natural tones welcome.",
     items: [
       { name: "Single Process", time: "90 min", price: "from $140" },
       { name: "Balayage", time: "3 hr", price: "from $280" },
       { name: "Full Highlights", time: "3 hr", price: "from $260" },
+      { name: "Grey Blending", time: "45 min", price: "from $70" },
       { name: "Color Correction", time: "by consult", price: "from $400" },
     ],
   },
   {
     img: g4,
     name: "Care & Treatments",
-    intro: "Strengthening and softening rituals to make your hair feel like itself again.",
+    intro: "Strengthening and softening rituals to make your hair — and scalp — feel like themselves again.",
     items: [
       { name: "Olaplex Bond Treatment", time: "30 min", price: "$55" },
       { name: "Deep Conditioning Ritual", time: "45 min", price: "$70" },
