@@ -108,7 +108,7 @@ function Home() {
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">
             <div>
               <p className="reveal text-xs uppercase tracking-[0.3em] text-accent mb-4">Signature services</p>
-              <h2 className="reveal reveal-delay-1 text-4xl sm:text-5xl max-w-xl text-balance">Three rooms. One craft.</h2>
+              <h2 className="reveal reveal-delay-1 text-4xl sm:text-5xl max-w-xl text-balance">Four rooms. One craft.</h2>
             </div>
             <Link to="/services" className="reveal reveal-delay-2 text-sm self-start md:self-end group inline-flex items-center gap-2">
               <span className="link-underline">View all services</span>
@@ -116,11 +116,12 @@ function Home() {
             </Link>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
             {[
               { img: cut, kicker: "01", title: "The Cut", text: "Architecture for hair. Shapes built to grow out gracefully." },
               { img: color, kicker: "02", title: "Color", text: "Hand-painted balayage, lived-in tones and gentle correction." },
-              { img: styling, kicker: "03", title: "Occasion", text: "Bridal, editorial and event styling, by quiet appointment." },
+              { img: mens, kicker: "03", title: "Grooming", text: "Skin fades, scissor work, beard sculpting and hot-towel shaves." },
+              { img: styling, kicker: "04", title: "Occasion", text: "Bridal, editorial and event styling, by quiet appointment." },
             ].map((s, i) => (
               <article
                 key={s.title}
