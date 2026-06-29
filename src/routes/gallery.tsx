@@ -26,8 +26,10 @@ export const Route = createFileRoute("/gallery")({
 
 const items = [
   { img: g1, label: "Glass Black", tag: "Cut · Treatment" },
+  { img: g7, label: "Textured Crop", tag: "Grooming · Skin Fade" },
   { img: g5, label: "Honey Lights", tag: "Balayage" },
   { img: g3, label: "Natural Texture", tag: "Cut · Care" },
+  { img: mens, label: "Classic Scissor", tag: "Grooming" },
   { img: cut, label: "The Trim", tag: "Precision Cut" },
   { img: g2, label: "Sharp Bob", tag: "Cut · Color" },
   { img: color, label: "Auburn Gloss", tag: "Single Process" },
