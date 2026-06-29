@@ -10,10 +10,10 @@ import { ArrowUpRight } from "lucide-react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Maison — A Hair Atelier in Brooklyn" },
-      { name: "description", content: "Color, cut and care, practiced with patience. Book a visit to Maison hair atelier." },
-      { property: "og:title", content: "Maison — A Hair Atelier" },
-      { property: "og:description", content: "Color, cut and care, practiced with patience." },
+      { title: "Maison — A Unisex Hair Atelier in Brooklyn" },
+      { name: "description", content: "A unisex hair atelier for cut, color, grooming and care. Book a visit to Maison." },
+      { property: "og:title", content: "Maison — A Unisex Hair Atelier" },
+      { property: "og:description", content: "Cut, color, grooming and care, practiced with patience." },
     ],
   }),
   component: Home,
