@@ -3,6 +3,7 @@ import { Layout } from "@/components/site/Layout";
 import cut from "@/assets/cut.jpg";
 import color from "@/assets/color.jpg";
 import styling from "@/assets/styling.jpg";
+import mens from "@/assets/mens.jpg";
 import g4 from "@/assets/g4.jpg";
 
 export const Route = createFileRoute("/services")({
