@@ -10,7 +10,7 @@ export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
       { title: "Services & Pricing — Maison Hair Atelier" },
-      { name: "description", content: "Cuts, color, treatments and occasion styling at Maison. Considered services with transparent pricing." },
+      { name: "description", content: "Cuts, color, grooming, treatments and occasion styling for all at Maison. Considered services with transparent pricing." },
       { property: "og:title", content: "Services — Maison" },
       { property: "og:description", content: "Cuts, color, treatments and styling." },
     ],
