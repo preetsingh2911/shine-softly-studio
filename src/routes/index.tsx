@@ -5,15 +5,16 @@ import interior from "@/assets/interior.jpg";
 import cut from "@/assets/cut.jpg";
 import color from "@/assets/color.jpg";
 import styling from "@/assets/styling.jpg";
+import mens from "@/assets/mens.jpg";
 import { ArrowUpRight } from "lucide-react";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Maison — A Hair Atelier in Brooklyn" },
-      { name: "description", content: "Color, cut and care, practiced with patience. Book a visit to Maison hair atelier." },
-      { property: "og:title", content: "Maison — A Hair Atelier" },
-      { property: "og:description", content: "Color, cut and care, practiced with patience." },
+      { title: "Maison — A Unisex Hair Atelier in Brooklyn" },
+      { name: "description", content: "A unisex hair atelier for cut, color, grooming and care. Book a visit to Maison." },
+      { property: "og:title", content: "Maison — A Unisex Hair Atelier" },
+      { property: "og:description", content: "Cut, color, grooming and care, practiced with patience." },
     ],
   }),
   component: Home,
@@ -27,7 +28,7 @@ function Home() {
         <div className="absolute inset-0 -z-10">
           <img
             src={hero}
-            alt="Woman with flowing wavy hair"
+            alt="Editorial portrait with soft hair"
             className="w-full h-full object-cover"
             width={1600}
             height={1920}
@@ -38,7 +39,7 @@ function Home() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8 w-full">
           <div className="grid md:grid-cols-12 gap-8 items-end">
             <div className="md:col-span-7 reveal">
-              <p className="text-xs uppercase tracking-[0.3em] text-accent mb-6">Est. 2014 · Brooklyn</p>
+              <p className="text-xs uppercase tracking-[0.3em] text-accent mb-6">Est. 2014 · Brooklyn · Unisex</p>
               <h1 className="font-display text-5xl sm:text-7xl lg:text-8xl leading-[1.02] text-balance">
                 Hair, made
                 <br />
@@ -47,7 +48,7 @@ function Home() {
             </div>
             <div className="md:col-span-4 md:col-start-9 reveal reveal-delay-2">
               <p className="text-base text-foreground/75 leading-relaxed max-w-sm">
-                A small studio of stylists who believe in slow consultations, honest mirrors and color that suits the life you actually live.
+                A unisex studio of stylists and barbers who believe in slow consultations, honest mirrors and work that suits the life you actually live.
               </p>
               <Link
                 to="/contact"
@@ -68,11 +69,12 @@ function Home() {
             <div key={i} className="flex items-center gap-16 px-8 font-display text-2xl text-foreground/40">
               <span>Balayage</span><span>·</span>
               <span>Precision Cut</span><span>·</span>
+              <span>Skin Fade</span><span>·</span>
+              <span>Beard Sculpt</span><span>·</span>
               <span>Bridal</span><span>·</span>
               <span>Olaplex</span><span>·</span>
               <span>Color Correction</span><span>·</span>
-              <span>Keratin</span><span>·</span>
-              <span>Extensions</span><span>·</span>
+              <span>Hot Towel Shave</span><span>·</span>
             </div>
           ))}
         </div>
@@ -106,7 +108,7 @@ function Home() {
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">
             <div>
               <p className="reveal text-xs uppercase tracking-[0.3em] text-accent mb-4">Signature services</p>
-              <h2 className="reveal reveal-delay-1 text-4xl sm:text-5xl max-w-xl text-balance">Three rooms. One craft.</h2>
+              <h2 className="reveal reveal-delay-1 text-4xl sm:text-5xl max-w-xl text-balance">Four rooms. One craft.</h2>
             </div>
             <Link to="/services" className="reveal reveal-delay-2 text-sm self-start md:self-end group inline-flex items-center gap-2">
               <span className="link-underline">View all services</span>
@@ -114,11 +116,12 @@ function Home() {
             </Link>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
             {[
               { img: cut, kicker: "01", title: "The Cut", text: "Architecture for hair. Shapes built to grow out gracefully." },
               { img: color, kicker: "02", title: "Color", text: "Hand-painted balayage, lived-in tones and gentle correction." },
-              { img: styling, kicker: "03", title: "Occasion", text: "Bridal, editorial and event styling, by quiet appointment." },
+              { img: mens, kicker: "03", title: "Grooming", text: "Skin fades, scissor work, beard sculpting and hot-towel shaves." },
+              { img: styling, kicker: "04", title: "Occasion", text: "Bridal, editorial and event styling, by quiet appointment." },
             ].map((s, i) => (
               <article
                 key={s.title}

@@ -6,6 +6,8 @@ import g3 from "@/assets/g3.jpg";
 import g4 from "@/assets/g4.jpg";
 import g5 from "@/assets/g5.jpg";
 import g6 from "@/assets/g6.jpg";
+import g7 from "@/assets/g7.jpg";
+import mens from "@/assets/mens.jpg";
 import cut from "@/assets/cut.jpg";
 import color from "@/assets/color.jpg";
 import styling from "@/assets/styling.jpg";
@@ -24,8 +26,10 @@ export const Route = createFileRoute("/gallery")({
 
 const items = [
   { img: g1, label: "Glass Black", tag: "Cut · Treatment" },
+  { img: g7, label: "Textured Crop", tag: "Grooming · Skin Fade" },
   { img: g5, label: "Honey Lights", tag: "Balayage" },
   { img: g3, label: "Natural Texture", tag: "Cut · Care" },
+  { img: mens, label: "Classic Scissor", tag: "Grooming" },
   { img: cut, label: "The Trim", tag: "Precision Cut" },
   { img: g2, label: "Sharp Bob", tag: "Cut · Color" },
   { img: color, label: "Auburn Gloss", tag: "Single Process" },

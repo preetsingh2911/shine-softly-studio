@@ -4,6 +4,7 @@ import interior from "@/assets/interior.jpg";
 import s1 from "@/assets/stylist1.jpg";
 import s2 from "@/assets/stylist2.jpg";
 import s3 from "@/assets/stylist3.jpg";
+import s4 from "@/assets/stylist4.jpg";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -20,6 +21,7 @@ export const Route = createFileRoute("/about")({
 const team = [
   { img: s1, name: "Clara Bouvier", role: "Founder · Senior Stylist", years: "Since 2014" },
   { img: s2, name: "Theo Marsh", role: "Master Cutter", years: "Since 2017" },
+  { img: s4, name: "Mateo Rivera", role: "Head Barber", years: "Since 2018" },
   { img: s3, name: "June Okafor", role: "Color Specialist", years: "Since 2020" },
 ];
 
@@ -38,12 +40,12 @@ function About() {
           <div className="md:col-span-7">
             <p className="reveal text-xs uppercase tracking-[0.3em] text-accent mb-6">About</p>
             <h1 className="reveal reveal-delay-1 text-5xl sm:text-7xl leading-[1.05] text-balance">
-              A small studio, built around the chair.
+              A unisex studio, built around the chair.
             </h1>
           </div>
           <div className="md:col-span-5">
             <p className="reveal reveal-delay-2 text-foreground/70 leading-relaxed">
-              Maison opened in 2014 with three chairs, two stylists and one rule: never rush the part that matters. A decade later, we've kept the chairs and added two more pairs of hands.
+              Maison opened in 2014 with three chairs and one rule: never rush the part that matters. A decade in, our chairs are open to everyone — stylists and barbers under one roof.
             </p>
           </div>
         </div>
@@ -97,9 +99,9 @@ function About() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <p className="reveal text-xs uppercase tracking-[0.3em] text-accent mb-4">The team</p>
           <h2 className="reveal reveal-delay-1 text-4xl sm:text-5xl mb-14 max-w-2xl text-balance">
-            Five hands, decades of practice between them.
+            Stylists and barbers, working side by side.
           </h2>
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 lg:gap-12">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10">
             {team.map((m, i) => (
               <div key={m.name} className={`reveal reveal-delay-${i + 1}`}>
                 <div className="img-zoom mb-5">

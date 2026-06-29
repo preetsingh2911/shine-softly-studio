@@ -3,13 +3,14 @@ import { Layout } from "@/components/site/Layout";
 import cut from "@/assets/cut.jpg";
 import color from "@/assets/color.jpg";
 import styling from "@/assets/styling.jpg";
+import mens from "@/assets/mens.jpg";
 import g4 from "@/assets/g4.jpg";
 
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
       { title: "Services & Pricing — Maison Hair Atelier" },
-      { name: "description", content: "Cuts, color, treatments and occasion styling at Maison. Considered services with transparent pricing." },
+      { name: "description", content: "Cuts, color, grooming, treatments and occasion styling for all at Maison. Considered services with transparent pricing." },
       { property: "og:title", content: "Services — Maison" },
       { property: "og:description", content: "Cuts, color, treatments and styling." },
     ],
@@ -21,29 +22,43 @@ const categories = [
   {
     img: cut,
     name: "Cuts & Shapes",
-    intro: "Cuts that respect the way your hair grows and the way you live.",
+    intro: "Cuts for every head — long, short, curly, fine. Shaped to the way your hair grows and the way you live.",
     items: [
       { name: "Signature Cut", time: "60 min", price: "$120" },
+      { name: "Short / Cropped Cut", time: "45 min", price: "$85" },
       { name: "Restyle", time: "90 min", price: "$160" },
       { name: "Fringe / Bang Trim", time: "20 min", price: "$30" },
       { name: "Children (under 12)", time: "30 min", price: "$55" },
     ],
   },
   {
+    img: mens,
+    name: "Grooming & Barbering",
+    intro: "Skin fades, classic scissor work, beard sculpting and the kind of hot-towel shave that earns repeat visits.",
+    items: [
+      { name: "Skin Fade", time: "45 min", price: "$60" },
+      { name: "Classic Scissor Cut", time: "45 min", price: "$55" },
+      { name: "Beard Sculpt & Line-up", time: "30 min", price: "$35" },
+      { name: "Hot Towel Shave", time: "45 min", price: "$50" },
+      { name: "Cut + Beard Combo", time: "75 min", price: "$85" },
+    ],
+  },
+  {
     img: color,
     name: "Color",
-    intro: "Hand-painted, lived-in color built to grow out as gracefully as it goes in.",
+    intro: "Hand-painted, lived-in color built to grow out as gracefully as it goes in. Grey-blending and natural tones welcome.",
     items: [
       { name: "Single Process", time: "90 min", price: "from $140" },
       { name: "Balayage", time: "3 hr", price: "from $280" },
       { name: "Full Highlights", time: "3 hr", price: "from $260" },
+      { name: "Grey Blending", time: "45 min", price: "from $70" },
       { name: "Color Correction", time: "by consult", price: "from $400" },
     ],
   },
   {
     img: g4,
     name: "Care & Treatments",
-    intro: "Strengthening and softening rituals to make your hair feel like itself again.",
+    intro: "Strengthening and softening rituals to make your hair — and scalp — feel like themselves again.",
     items: [
       { name: "Olaplex Bond Treatment", time: "30 min", price: "$55" },
       { name: "Deep Conditioning Ritual", time: "45 min", price: "$70" },
@@ -71,7 +86,7 @@ function Services() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <p className="reveal text-xs uppercase tracking-[0.3em] text-accent mb-6">Services</p>
           <h1 className="reveal reveal-delay-1 text-5xl sm:text-7xl max-w-4xl leading-[1.05] text-balance">
-            A short menu, practiced thoroughly.
+            One menu, open to everyone.
           </h1>
           <p className="reveal reveal-delay-2 mt-8 max-w-xl text-foreground/70 leading-relaxed">
             Prices begin where they begin; final quotes are confirmed during your in-person consultation, so the number on the receipt is the one we discussed.
