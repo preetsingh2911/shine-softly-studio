@@ -27,7 +27,7 @@ function Home() {
         <div className="absolute inset-0 -z-10">
           <img
             src={hero}
-            alt="Woman with flowing wavy hair"
+            alt="Editorial portrait with soft hair"
             className="w-full h-full object-cover"
             width={1600}
             height={1920}
@@ -38,7 +38,7 @@ function Home() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8 w-full">
           <div className="grid md:grid-cols-12 gap-8 items-end">
             <div className="md:col-span-7 reveal">
-              <p className="text-xs uppercase tracking-[0.3em] text-accent mb-6">Est. 2014 · Brooklyn</p>
+              <p className="text-xs uppercase tracking-[0.3em] text-accent mb-6">Est. 2014 · Brooklyn · Unisex</p>
               <h1 className="font-display text-5xl sm:text-7xl lg:text-8xl leading-[1.02] text-balance">
                 Hair, made
                 <br />
@@ -47,7 +47,7 @@ function Home() {
             </div>
             <div className="md:col-span-4 md:col-start-9 reveal reveal-delay-2">
               <p className="text-base text-foreground/75 leading-relaxed max-w-sm">
-                A small studio of stylists who believe in slow consultations, honest mirrors and color that suits the life you actually live.
+                A unisex studio of stylists and barbers who believe in slow consultations, honest mirrors and work that suits the life you actually live.
               </p>
               <Link
                 to="/contact"
