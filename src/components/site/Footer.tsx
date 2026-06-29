@@ -10,7 +10,7 @@ export function Footer() {
             Maison<span className="text-accent">.</span>
           </Link>
           <p className="mt-5 max-w-sm text-primary-foreground/70 text-sm leading-relaxed">
-            An atelier for considered hair. Color, cut and care, practiced with patience in a quiet corner of the city.
+            A unisex atelier for considered hair. Cut, color, grooming and care for all, practiced with patience in a quiet corner of the city.
           </p>
           <div className="mt-6 flex gap-4">
             <a href="#" aria-label="Instagram" className="p-2 border border-primary-foreground/20 hover:border-accent hover:text-accent transition">
