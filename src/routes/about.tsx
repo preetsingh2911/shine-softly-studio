@@ -99,9 +99,9 @@ function About() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <p className="reveal text-xs uppercase tracking-[0.3em] text-accent mb-4">The team</p>
           <h2 className="reveal reveal-delay-1 text-4xl sm:text-5xl mb-14 max-w-2xl text-balance">
-            Five hands, decades of practice between them.
+            Stylists and barbers, working side by side.
           </h2>
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 lg:gap-12">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10">
             {team.map((m, i) => (
               <div key={m.name} className={`reveal reveal-delay-${i + 1}`}>
                 <div className="img-zoom mb-5">
