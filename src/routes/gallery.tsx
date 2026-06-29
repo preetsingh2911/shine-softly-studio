@@ -6,6 +6,8 @@ import g3 from "@/assets/g3.jpg";
 import g4 from "@/assets/g4.jpg";
 import g5 from "@/assets/g5.jpg";
 import g6 from "@/assets/g6.jpg";
+import g7 from "@/assets/g7.jpg";
+import mens from "@/assets/mens.jpg";
 import cut from "@/assets/cut.jpg";
 import color from "@/assets/color.jpg";
 import styling from "@/assets/styling.jpg";
