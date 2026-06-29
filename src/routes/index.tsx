@@ -68,11 +68,12 @@ function Home() {
             <div key={i} className="flex items-center gap-16 px-8 font-display text-2xl text-foreground/40">
               <span>Balayage</span><span>·</span>
               <span>Precision Cut</span><span>·</span>
+              <span>Skin Fade</span><span>·</span>
+              <span>Beard Sculpt</span><span>·</span>
               <span>Bridal</span><span>·</span>
               <span>Olaplex</span><span>·</span>
               <span>Color Correction</span><span>·</span>
-              <span>Keratin</span><span>·</span>
-              <span>Extensions</span><span>·</span>
+              <span>Hot Towel Shave</span><span>·</span>
             </div>
           ))}
         </div>
