@@ -40,12 +40,12 @@ function About() {
           <div className="md:col-span-7">
             <p className="reveal text-xs uppercase tracking-[0.3em] text-accent mb-6">About</p>
             <h1 className="reveal reveal-delay-1 text-5xl sm:text-7xl leading-[1.05] text-balance">
-              A small studio, built around the chair.
+              A unisex studio, built around the chair.
             </h1>
           </div>
           <div className="md:col-span-5">
             <p className="reveal reveal-delay-2 text-foreground/70 leading-relaxed">
-              Maison opened in 2014 with three chairs, two stylists and one rule: never rush the part that matters. A decade later, we've kept the chairs and added two more pairs of hands.
+              Maison opened in 2014 with three chairs and one rule: never rush the part that matters. A decade in, our chairs are open to everyone — stylists and barbers under one roof.
             </p>
           </div>
         </div>
